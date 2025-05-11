@@ -1,25 +1,12 @@
+Requires Spotify Premium
+
 Setup:
-1. Create/Use an app from https://developer.spotify.com/dashboard
-2. Replace 
-    const std::string clientId = <ID_PLACEHOLDER>;
-    const std::string clientSecret = <SECRET_ID_PLACEHOLDER>;
-    const std::string redirectUri = <URL_PLACEHOLDER>;
-with the information of Spotify App.
+Extract Zip to Bakkesmod folder
+Once RL lauches, ensure the plugin is enabled in PluginManager or run 'plugin load spotifydeploy'
+A Spotify verification window should launch, and after confirming the plugin should function
 
-3. Build and Enjoy!
+Usage:
 
-# SpotifyTracker
-BakkesMod Plugin that tracks Rocket League performance and related it to the songs played
-SQLite for database management
+Hit 'f9' to toggle the IMGUI table display
+db file is stored at \BakkesMod\data\spotify_stats.db
 
-Main Commit 1:
-This program gathers the currently listened to Spotify song every in-game stat event and stores it in a database.
-
-So far, the current operations are available:
-
-Enable/Disable in settings
-Win/Loss stats properly distributed among entire game
-Tracks total listen time of tracks, allowing goals/sec and related data analysis
-
-
-NOTE: THIS PROBABLY DOESNT WORK ON YOUR PC 
